@@ -2,10 +2,10 @@
 target: run-service-a run-service-b run-service-c
 
 run-service-a:
-	go run service_a/service_a.go
+	./service_a/service_a
 
 run-service-b:
-	go run service_b/service_b.go
+	./service_b/service_b
 
 run-service-c:
-	go run service_c/service_c.go
+	./service_c/service_c

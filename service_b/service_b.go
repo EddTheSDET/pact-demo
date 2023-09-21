@@ -9,7 +9,7 @@ import (
 )
 
 func callServiceA() {
-	response, err := http.Get("http://localhost:10001/ping")
+	response, err := http.Get("http://localhost:10001/bing")
 
 	if err != nil {
 		log.Fatalln(err)
